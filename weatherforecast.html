@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Weather Report</title>
+    <style>
+        body {
+            background-color: #111827;
+            color:white;
+            font-family: Gill Sans;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #1f2937;
+            padding: 20px;
+        }
+        .header h1 {
+            margin:0;
+            font-size:40px;
+        }
+        .weather-card {
+            background-color: #181818;
+            width: 300px;
+            margin:50px auto;
+            padding:20px;
+            border-radius: 15px;
+        }
+        .weather-card img {
+            width:100%;
+            border-radius: 10px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 12px 25px;
+            font-size: 18px;
+            background-color:crimson;
+            color:white;
+            border:none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: rgb(139, 21, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Current Sky Conditions</h1>
+    </div>
+    <div class="weather glassmorphism">
+    <div class="weather-card">
+        <img src="https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&w=500&q=80" alt="Live Outlook">
+        <h2>Right now in Mumbai</h2>
+        <p>Live tracking active</p>
+        <a href="https://www.accuweather.com/en/in/mumbai/204842/weather-forecast/204842" target="_blank">
+            <button>View on AccuWeather</button>
+        </a>
+    </div>
+    <div class="weather-card">
+        <img src="https://images.unsplash.com/photo-1558431382-27e303142255?auto=format&fit=crop&w=500&q=80" alt="Kolkata Live">
+        <h2>Live from the City Of Joy</h2>
+        <p>Soft amber haze</p>
+        <a href="https://www.accuweather.com/en/in/kolkata/206690/weather-forecast/206690" target="_blank">
+            <button>View on AccuWeather</button>
+        </a>
+    </div>
+    <div class="weather-card">
+        <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=500&q=80" alt="Live Over the Capital">
+        <h2>Capital Skywatch</h2>
+        <p>Blistering Summer Skies</p>
+        <a href="https://www.accuweather.com/en/in/delhi/202396/weather-forecast/202396" target="_blank">
+            <button>View on AccuWeather</button>
+        </a>
+    </div>
+    <div class="weather-card">
+        <img src="https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=500&q=80" alt="Check The Skies">
+        <h2>Bangalore Sky Watch</h2>
+        <p>Namma Weather Watch</p>
+        <a href="https://www.accuweather.com/en/in/bengaluru/204108/weather-forecast/204108" target="_blank">
+            <button>View on AccuWeather</button>
+    </div>
+    </div>
+</body>
+</html>
